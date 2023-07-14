@@ -112,6 +112,7 @@ public class FrmEventoDeportivo extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Proxima Nova Rg", 0, 12)); // NOI18N
         jLabel2.setText("Formato");
 
+        jTextField2.setEditable(false);
         jTextField2.setBackground(new java.awt.Color(238, 219, 248));
         jTextField2.setFont(new java.awt.Font("Proxima Nova Rg", 0, 12)); // NOI18N
         jTextField2.setToolTipText("");
@@ -239,7 +240,7 @@ public class FrmEventoDeportivo extends javax.swing.JFrame {
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(48, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();

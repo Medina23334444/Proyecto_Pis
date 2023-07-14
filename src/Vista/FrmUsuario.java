@@ -61,6 +61,7 @@ public class FrmUsuario extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
         lbl1 = new javax.swing.JLabel();
 
         jLabel3.setText("jLabel3");
@@ -72,35 +73,39 @@ public class FrmUsuario extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Perpetua Titling MT", 1, 14)); // NOI18N
         jLabel1.setText("STARK INDUSTRIES© ");
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 250, -1, -1));
-        getContentPane().add(lbl2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 10, 290, 250));
+        getContentPane().add(lbl2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 0, 290, 250));
 
-        jLabel4.setFont(new java.awt.Font("Proxima Nova Rg", 0, 12)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Proxima Nova Rg", 1, 14)); // NOI18N
         jLabel4.setText("Bienvenidos a la aplicacion FootStats  ");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 300, -1, -1));
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 300, -1, -1));
 
         jButton2.setBackground(new java.awt.Color(224, 255, 254));
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/2422601 (1).png"))); // NOI18N
-        jButton2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 390, 80, 70));
+        jButton2.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 410, 80, 70));
 
         jButton1.setBackground(new java.awt.Color(224, 255, 254));
         jButton1.setFont(new java.awt.Font("Proxima Nova Rg", 1, 14)); // NOI18N
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/1000946 (1).png"))); // NOI18N
-        jButton1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(102, 102, 102)));
+        jButton1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 390, 80, 70));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 410, 80, 70));
 
-        jLabel2.setFont(new java.awt.Font("Proxima Nova Rg", 0, 12)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Proxima Nova Rg", 1, 12)); // NOI18N
         jLabel2.setText("Iniciar sesion: ");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 360, -1, -1));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 380, -1, -1));
 
-        jLabel5.setFont(new java.awt.Font("Proxima Nova Rg", 0, 12)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("Proxima Nova Rg", 1, 12)); // NOI18N
         jLabel5.setText("Registrar sesion: ");
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 360, -1, -1));
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 380, -1, -1));
+
+        jLabel6.setFont(new java.awt.Font("Proxima Nova Rg", 0, 10)); // NOI18N
+        jLabel6.setText("¿Que desea hacer?");
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 340, -1, -1));
         getContentPane().add(lbl1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 400, 550));
 
         pack();
@@ -160,6 +165,7 @@ public class FrmUsuario extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel lbl1;
     private javax.swing.JLabel lbl2;
     // End of variables declaration//GEN-END:variables
